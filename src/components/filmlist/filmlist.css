@@ -1,0 +1,42 @@
+h3{
+    margin-left: 50px;
+    color: white;
+}
+.largePoster{
+    max-height: 180px;
+    margin: 15px;
+    cursor: pointer;
+   
+   
+    
+}
+.filmlistPoster{
+    margin-top: 10px;
+}
+li{
+    transition: 0.5s;
+}
+
+li:hover{
+    transform: scale(1.1);
+    
+}
+.poster{
+    display: flex;
+    overflow-x:scroll;
+    outline: hidden;
+}
+.poster::-webkit-scrollbar{
+    display: none;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+}
+.smallPoster{
+    max-height: 120px;
+    margin: 10px;
+    cursor: pointer;
+}
